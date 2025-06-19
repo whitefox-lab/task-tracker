@@ -1,0 +1,20 @@
+name: HTML Validator
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-html:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install tidy
+        run: sudo apt-get install -y tidy
+
+      - name: Run tidy on index.html
+        run: tidy -errors -q index.html
