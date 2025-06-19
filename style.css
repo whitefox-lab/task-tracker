@@ -11,3 +11,17 @@
   margin-top: 0;
   color: #333;
 }
+
+.task-list .task-card + .task-card {
+  margin-top: 12px;
+}
+
+.badge {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  color: white;
+}
+.in-progress {
+  background-color: #f0ad4e;
+}
