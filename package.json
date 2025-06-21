@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "eslint": "^9.29.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.5.3"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint . --ext .js,.html"
+  },
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "script.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitefox-lab/task-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whitefox-lab/task-tracker/issues"
+  },
+  "homepage": "https://github.com/whitefox-lab/task-tracker#readme"
+}
