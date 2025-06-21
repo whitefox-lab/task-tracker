@@ -6,7 +6,7 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint . --ext .js,.html"
+    "lint": "eslint . --ext .js"
   },
   "name": "task-tracker",
   "version": "1.0.0",
