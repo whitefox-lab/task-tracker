@@ -1,1 +1,1 @@
-console.log("Сохраняемся!");
+console.log("commitizen");
